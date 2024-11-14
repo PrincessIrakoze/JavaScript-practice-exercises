@@ -20,20 +20,26 @@ if (x>0 && y>0 && z>0){
     console.log("the sign is +")
 } else
 {console.log("the sign is -")}
-// third practice
-var x = 0
-var y =-1
-var z =4
-if (x>y && x>z && y>z){
-    console.log(x+","+y+","+z);
-}else if(x>y && z>x && z<y){
-    console.log(z+",+x+", "+y");
-}else if(y<x && y<z && z<x){
-    console.log(y+", "+x+","+z);
-}else if (x<y && x<z && y>z){
-    console.log(y+","+z+","+x);
-}else if(y>x && y>z && z<x){
-    console.log(y+","+x+", "+z);
-}else if(z>y && z>x && x<y){
-    console.log(z+", "+y+", "+x);
+// the forth number
+let v=-5;
+let w=-2;
+let f=-6;
+let h=0;
+let z=-1;
+
+
+if(v>w && v>f && v>h && v>z){
+    console.log(v);
+}
+else if(w>v && w>f && w>h && w>z){
+    console.log(w);
+}
+else if(f>v && f>w && f>h && f>z){
+    console.log(f);
+}
+else if(h>v && h>w && h>f && h>z){
+    console.log(h);
+}
+else if(z>v && z>w && z>f && z>h){
+    console.log(z);
 }
